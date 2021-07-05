@@ -194,7 +194,7 @@ def custom_sgg_post_precessing(predictions):
         current_dict['rel_labels'] = rel_labels
         current_dict['rel_scores'] = rel_scores
         current_dict['rel_all_scores'] = rel_all_scores
-        output_dict[idx] = current_dict
+        output_dict[str(idx)] = current_dict
     return output_dict
     
 def get_sorted_bbox_mapping(score_list):
