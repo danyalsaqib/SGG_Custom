@@ -4,14 +4,14 @@
 [![Python](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/)
 ![PyTorch](https://img.shields.io/badge/pytorch-1.2.0-%237732a8)
 
+Our paper [Unbiased Scene Graph Generation from Biased Training](https://arxiv.org/abs/2002.11949) has been accepted by CVPR 2020 (Oral).
+
 ## Danyal's Preface
 Hello! This custom repository simple builds on the excellent work of Kaihua Tang. This repository was created as an easy way to run this particular scene graph generator in a notebook environment. To run the scene graph generator, you can simply download the Python Notebook file titled 'SGG_Custom.ipynb', upload it to Colab, and run it to completion. The internal code has been altered quite a lot to cater to these customized needs. Specifically, new dataloaders were defined after significant changes, so that the implementation of the function 'im2scenegraph' would be possible.
 
 The function 'im2scenegraph' provides a convenient way of using the scene graph generator on custom images. The function can be passed any custom image, and will produce a complete scene graph, along with visualizations within the same notebook. I hope it can provide a good starting point for people looking for an instant way to run the SGG repository, without all the hassle of the setup.
 
 The rest of the readme is the same as Kaihua Tang's repository. Good luck!
-
-Our paper [Unbiased Scene Graph Generation from Biased Training](https://arxiv.org/abs/2002.11949) has been accepted by CVPR 2020 (Oral).
 
 ## Recent Updates
 
